@@ -1,0 +1,136 @@
+body{
+    max-width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: tomato; */
+    color:rgb(0, 0, 0);
+    
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: #3b3b3b;
+    width: 100%;
+    top: 0;
+  }
+  
+  .item{
+    float: left;
+  }
+  
+
+.logo{
+    margin-top: 14px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.card-img{
+    width: 50%;
+    height: 50%;
+    border-radius: 5px 5px 0 0;
+}
+ul,ol{
+    text-align: left;
+}
+h1{
+    color:orange;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  .row {
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05); 
+}
+
+.thumb{
+    margin-top: 14px;
+    width: 400px;
+    height: 400px;
+  }
+
+.recipe-img{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe-body{
+    margin-left: 50px;
+}
+
+.button-link:link, .button-link:visited {
+    background-color: orange;
+    color: white;
+    padding: 14px 25px;
+    margin-bottom: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button-link:hover, .button-link:active {
+    background-color: rgb(254, 199, 97);
+  }
+
+  footer {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
